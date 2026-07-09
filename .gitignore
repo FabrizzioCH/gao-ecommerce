@@ -1,0 +1,41 @@
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+
+### IDEs (aplica a todo el repo) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/*
+!.vscode/extensions.json
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated
+
+### Backend (Spring Boot / Maven) ###
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/HELP.md
+*.class
+
+### Frontend (React / Vite) ###
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+### Variables de entorno (backend y frontend) ###
+.env
+.env.*
+!.env.example
+!.env.*.example
